@@ -1,4 +1,3 @@
-# ExcelAuto.py
 from pathlib import Path
 from openpyxl import Workbook
 import platform
@@ -30,4 +29,5 @@ if platform.system() == "Windows":
 
 
 print(f"Created: {out_path.resolve()}")
+
 

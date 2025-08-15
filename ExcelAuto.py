@@ -10,7 +10,7 @@ sheet["A1"] = "Hello"
 sheet["B1"] = "World"
 
 # Save next to this script (no hard-coded paths)
-out_path = Path(__file__).with_name("hello_youtube.xlsx")
+out_path = Path(__file__).with_name("hello_world.xlsx")
 wb.save(out_path)
 
 # 2) Update a value and save again
@@ -30,3 +30,4 @@ if platform.system() == "Windows":
 
 
 print(f"Created: {out_path.resolve()}")
+

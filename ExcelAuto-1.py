@@ -1,4 +1,3 @@
-# ExcelAuto.py
 from pathlib import Path
 from openpyxl import Workbook
 import platform
@@ -21,5 +20,6 @@ if platform.system() == "Windows":
         # Tip: leave Excel open so you can see it; close manually when done.
     except Exception as e:
         print("Excel auto-open skipped:", e)
+
 
 print(f"Created: {out_path.resolve()}")

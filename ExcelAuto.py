@@ -7,7 +7,7 @@ import platform
 wb = Workbook()
 sheet = wb.active
 sheet["A1"] = "Hello"
-sheet["B1"] = "YouTube"
+sheet["B1"] = "World"
 
 # Save next to this script (no hard-coded paths)
 out_path = Path(__file__).with_name("hello_youtube.xlsx")
@@ -27,5 +27,6 @@ if platform.system() == "Windows":
         # Tip: leave Excel open so you can see it; close manually when done.
     except Exception as e:
         print("Excel auto-open skipped:", e)
+
 
 print(f"Created: {out_path.resolve()}")

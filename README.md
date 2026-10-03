@@ -3,11 +3,15 @@
 A beginner-friendly Python automation project demonstrating how to **create, update, and read Excel spreadsheets** programmatically.
 This three-step mini-project uses the `openpyxl` library for cross-platform Excel file handling and `pywin32` for optional auto-opening on Windows.
 
+<br>
+
 ## Project Overview
 
 1. **ExcelAuto-1.py** → Create a new Excel file with two cells (`A1` = "Hello", `B1` = "World").
 2. **ExcelAuto-2.py** → Update or append additional values to the existing file.
 3. **ExcelAuto-3.py** → Read the Excel file and display its contents in the terminal.
+
+<br>
 
 ## Setup
 
@@ -18,6 +22,8 @@ python -m venv .venv
 . .venv/Scripts/activate
 pip install -r requirements.txt
 ```
+
+<br>
 
 ## Run
 
@@ -38,6 +44,8 @@ python ExcelAuto-2.py
 ```bash
 python ExcelAuto-3.py
 ```
+
+<br>
 
 ## Notes
 
